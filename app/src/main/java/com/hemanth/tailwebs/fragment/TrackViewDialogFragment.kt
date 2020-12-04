@@ -74,7 +74,7 @@ class TrackViewDialogFragment : DialogFragment(), OnMapReadyCallback {
         )
 
         googleMap?.addMarker(MarkerOptions().position(latLngList[0]))
-        googleMap?.moveCamera(CameraUpdateFactory.newLatLng(latLngList[0]))
+        googleMap?.moveCamera(CameraUpdateFactory.newLatLngZoom(latLngList[0], 20.0F))
     }
 
     companion object {

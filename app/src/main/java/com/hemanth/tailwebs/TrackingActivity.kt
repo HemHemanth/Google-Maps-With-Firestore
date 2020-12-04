@@ -139,7 +139,7 @@ class TrackingActivity : AppCompatActivity(), OnMapReadyCallback, IListener {
         markerPoints.add(latLng)
         //Add user recent location marker
         mMap?.addMarker(MarkerOptions().position(latLng))
-        mMap?.moveCamera(CameraUpdateFactory.newLatLng(latLng))
+        mMap?.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 20.0F))
 
         mMap?.addPolyline(PolylineOptions()
                 .addAll(
