@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/layoutTrackingHistory"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize">
+
+    <TextView
+        android:id="@+id/txtTrackingTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:textSize="@dimen/sp14"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="@dimen/dp5"
+        android:layout_marginStart="@dimen/dp5"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/dp20"
+        android:layout_height="@dimen/dp20"
+        android:src="@drawable/right_arrow"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="@dimen/dp10"
+        android:layout_marginEnd="@dimen/dp10"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        android:background="#C9C9C9"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

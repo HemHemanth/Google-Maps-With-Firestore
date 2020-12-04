@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF6347"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:textSize="@dimen/sp12"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/dp15"
+        android:layout_marginRight="@dimen/dp10"
+        android:layout_marginEnd="@dimen/dp10"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:id="@+id/txtReadyToStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ready_to_track"
+        android:textSize="@dimen/sp18"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/txtYes"
+        android:layout_width="@dimen/dp80"
+        android:layout_height="@dimen/dp80"
+        android:text="@string/yes"
+        android:textSize="@dimen/sp14"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/background_yes"
+        android:layout_marginTop="@dimen/dp10"
+        />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtTrackingHistory"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp45"
+        android:background="@drawable/background_tracking_history"
+        android:text="@string/tracking_history"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp14"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_margin="@dimen/dp20"
+        />
+
+
+</RelativeLayout>

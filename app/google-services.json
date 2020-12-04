@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "188930206314",
+    "firebase_url": "https://tailwebs-9d298.firebaseio.com",
+    "project_id": "tailwebs-9d298",
+    "storage_bucket": "tailwebs-9d298.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188930206314:android:a61593d4dc3297e894f813",
+        "android_client_info": {
+          "package_name": "com.hemanth.tailwebs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188930206314-9c5n3u916ijmhr3ht24n2l9t8bdpj71c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSNHtw7G2FwvMpKFXz2R6ZqsTlKqDcMj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188930206314-9c5n3u916ijmhr3ht24n2l9t8bdpj71c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
